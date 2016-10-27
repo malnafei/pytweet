@@ -17,6 +17,12 @@ Tweepy library
 ```
 pip install tweepy
 ```
+You may also use Git to clone the repository from Github and install it manually:
+```
+git clone https://github.com/tweepy/tweepy.git
+cd tweepy
+python setup.py install
+```
 
 **How to use?**
 

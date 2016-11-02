@@ -1,0 +1,6 @@
+version=1.1
+
+
+Changelog (v1.1):
+
+ - Fix maximum amount of characters from 144 to 140.

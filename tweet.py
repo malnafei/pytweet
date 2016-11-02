@@ -43,7 +43,7 @@ def Tweet():
 	api = tweepy.API(auth)
 	if api:
 		tweet_message = raw_input("[?] Tweet something: ")
-		if len(tweet_message) <= 144:
+		if len(tweet_message) <= 140:
 			print '\n[+]Try to tweet now...\n'
 			time.sleep(1)
 			send_tweet = api.update_status(tweet_message)

@@ -52,7 +52,7 @@ def Tweet():
 			else:
 				print "[!] Error, Try again please."
 		else:
-			print "[!] Tweet more than 144 character."
+			print "[!] Tweet more than 140 character."
 	else:
 		print "[!] Error with access token."
 
